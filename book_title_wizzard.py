@@ -11,8 +11,6 @@ Book Title Generator
     d. Book author both name and surname must be upper-cased
     e. Book author will start from ' - '
 4. Extras: Serialize that output to file/JSON
-example:
-    "Red chilli peppers" - Bon Jovi
 """
 from random import randint
 
