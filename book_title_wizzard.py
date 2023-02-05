@@ -48,6 +48,5 @@ def author_creator(author_list=[]):
 
 
 class BookTitleWizardCreator:
-
     final_list = [x + y for x, y in zip(title_creator(), author_creator())]
     print(final_list)
